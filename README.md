@@ -15,8 +15,11 @@ O **método da bisseção**  é um método de busca de raízes que bissecta repe
 - [Método de Illinois](https://github.com/thaina-gomes/numerical-algorithms/blob/master/algorithms/MetodoIllinois.c)
 
 O **Método de Illinois** segue o Regula Falsi, exceto que as estimativas escolhidas para a próxima iteração são selecionadas de acordo com as seguintes regras:
+
 i) se f (i + 1) f (i) <0, então (x (i-1), f (i-1)) é substituído por (x (i), f (i))
+
 ii) se f (i + 1) f (i)> O, então (x (i-1), f (i-1)) é substituído por (x (i-1), f (i-1) / 2).
+
 Como antes, (x (i + 1), f (i + 1)) substitui (x (i), f (i)). Os valores da função usados em cada iteração novamente sempre terão sinais opostos e a introdução do valor f (i-1) / 2 para f (i-1) é uma modificação projetada para acelerar a convergência evitando a retenção de um ponto final.
 
 - [Método de Pégaso](https://github.com/thaina-gomes/numerical-algorithms/blob/master/algorithms/MetodoPegaso.c)
